@@ -1,0 +1,52 @@
+body{  
+    background-color: rgb(2, 33, 2); 
+    background-image: linear-gradient(to bottom, rgba(22,22,22,0.9),rgba(22,22,22,0.9)), url(bilder/pexels-monique-laats-230726-733116\ \(1\).jpg);
+    background-repeat: no-repeat;
+    max-width: 100vw;
+    min-height: 100vh;
+
+}
+h1{
+    display: flex;
+    justify-content: center;
+    color:#076f49d6;  
+    font-size: 50px;
+  }
+  .naturscroll{
+    
+    
+    padding: 13px 0 13px 165px;
+    gap: 10px;
+    height: 800px;
+    width: 1300px;
+    overflow-x:hidden;
+    overflow-y:scroll;
+    scrollbar-width: none;
+    
+    box-sizing: border-box;
+  }
+  .naturscroll img{
+    display: flex;
+    flex-direction: column;
+  }
+  .naturscroll p{
+    display: flex;
+    
+    justify-content: end;
+    
+  }
+  p{
+    color: aliceblue;
+  }
+
+  img{
+    width: 800px;
+    
+}   
+button img :active{
+  
+  transform: scale(1.5);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

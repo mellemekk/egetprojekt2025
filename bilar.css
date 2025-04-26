@@ -1,0 +1,86 @@
+body{   
+    background-image: linear-gradient(to bottom, rgba(22,22,22,0.9),rgba(22,22,22,0.9)), url(bilder/pexels-pixabay-248747.jpg);
+    height: 100vh;
+}
+h1{
+    color:#ff47da;  
+    display: flex;
+    justify-content: center;
+    font-size: 65px;
+    font-style:italic;
+  }
+  
+  .byggscroll{
+    padding: 13px  13px ;
+    gap: 10px;
+    height: 800px;
+    width: 1400px;
+    overflow-x:hidden;
+    overflow-y:scroll;
+    scrollbar-width: none;
+  }
+  img{
+    width: 1000px;
+    padding: 10px;
+}  
+.byggscroll img{
+    display: flex;
+    flex-direction: column;
+  }
+  p{
+  
+    color: aliceblue;
+    width: 300px;
+  }
+  .byggscroll p{
+    display: flex;
+    
+    justify-content: end;
+    
+  }
+
+  .bmwbild1text{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row-reverse;
+    gap: 20px;
+    
+  }
+  .bmwbild1text img{
+    width: 1000px;
+
+  }
+  .bmwbild1text p{
+    max-height: 400px;
+    overflow-x: auto;
+    width: 500px;
+    
+  }
+  .merctext{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row-reverse;
+    gap: 20px;
+  }
+  .merctext img{
+    width: 1000px;
+  }
+  .merctext p{
+    max-height: 550px;
+    overflow-x: auto;
+    width: 500px;
+  }
+  .datstext{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row-reverse;
+    gap: 20px;
+  }
+  .datstext img{
+    width: 1000px;
+  }
+  .datstext p{
+    max-height: 550px;
+    overflow-x: auto;
+    width: 500px;
+  }

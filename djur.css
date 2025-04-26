@@ -1,0 +1,40 @@
+body{   
+    background-image: linear-gradient(to bottom, rgba(22,22,22,0.9),rgba(22,22,22,0.9)), url(bilder/pexels-pixabay-45863.jpg);
+    height: 100vh;
+}
+
+  h1{
+    color:#fff700;  
+    display: flex;
+    justify-content: center;
+    font-size: 65px;
+    font-style:italic;
+  }
+  
+  .djurscroll{
+    padding: 13px 0 13px 165px;
+    gap: 10px;
+    height: 800px;
+    width: 1300px;
+    overflow-x:hidden;
+    overflow-y:scroll;
+    scrollbar-width: none;
+  }
+  img{
+    width: 800px;
+}  
+.djurscroll img{
+    display: flex;
+    flex-direction: column;
+  }
+  p{
+    
+    color: aliceblue;
+  }
+  .djurscroll p{
+    display: flex;
+    
+    justify-content: end;
+    
+  }
+  
