@@ -37,4 +37,14 @@ body{
     justify-content: end;
     
   }
-  
+  footer{
+    color:#123f0c;  
+    
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-style:italic;
+    height: 40px;
+    justify-content: space-between;
+  }
+

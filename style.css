@@ -1,7 +1,7 @@
 :root {
-    --main-color: #f0f0f0;
-    --secondary-color: #333;
-    --third-color: #008000;
+    --main-color: #e68225;
+    --secondary-color: #8bebf2;
+    --third-color: #5e6aed;
   }
   
   * {
@@ -11,7 +11,7 @@
   }
   
   body {
-    background-color: antiquewhite;
+    background-image: url(bilder/ChatGPT\ Image\ 28\ apr.\ 2025\ 11_20_18.png);
     height: 100vh;
     display: flex;
     flex-direction : column;
@@ -26,7 +26,7 @@
   }
   h1 > span{
       font-style: italic;
-      color: var(--secondary-color);
+      color: var(--main-color);
   }
   a{
       margin: 15px 0;
@@ -43,7 +43,7 @@
       border-radius: 5px;
   }
   header > nav > ul > li {
-      box-shadow: inset 0 0 5px black;
+      box-shadow: inset 0 0 5px var(--secondary-color);
       margin: 10px 10px;
       padding: 5px;
       list-style-type: none;
